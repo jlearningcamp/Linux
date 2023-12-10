@@ -1,0 +1,19 @@
+sed 's/jebin/Jebin' file.txt
+- Replace all jebin with Jebin 
+
+sed 's/jebin/Jebin/n' file.txt
+- Replace nth jebin with Jebin 
+
+sed 's/jebin/Jebin/ng' file.txt
+- Replace all jebin from its nth occurence with Jebin 
+- Eg: sed 's/jebin/Jebin/2g' file.txt 
+  - Replace all jebin from 2nd occurence
+
+sed '3d' file.txt
+- Deletes 3rd line
+
+sed '$d' file.txt
+- Deletes last line
+
+sed '3,6d' file.txt
+- Deletes 3-6th lines
