@@ -1,0 +1,11 @@
+find <source location> -name <filename>
+- Checks whether a file exists in the location specified
+- '.' for current folder
+
+find <source location> -size <size>
+- Displays files with that specified size in the location specified
+- '.' for current folder
+
+find <source location> -newer <file>
+- Displays files newer than the specified file in the location specified
+- '.' for current folder
