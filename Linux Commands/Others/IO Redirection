@@ -1,0 +1,8 @@
+With Examples
+
+echo "hello" > file.txt
+- Creates a file 'file.txt' with content "hello"
+- If there already exists one such file, overwrites
+
+echo "hello" >> file.txt
+- Appends
