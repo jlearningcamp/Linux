@@ -1,1 +1,3 @@
-
+ls                                                                 : List contents of a folder
+ls -a                                                              : List all the contents of a folder even hidden files
+ls -l                                                              : List contents of a folder with details like size, owner, permission etc
