@@ -1,0 +1,2 @@
+rmdir <folder name>
+- Deletes the folder, if empty
