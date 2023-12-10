@@ -1,0 +1,21 @@
+whois <domain>
+- Info about the domain, owner, location etc
+
+dig <domain>
+- dns info
+
+host <domain>
+- dns ip of the domain
+
+wget <url to a file>
+- downloads that file from internet
+
+iwconfig
+- Data about wireless interfaces
+
+macchanger
+- To change mac address
+
+ssh user@ip
+ssh user@ip -p <portnumber>
+sshd_config : configuration file
