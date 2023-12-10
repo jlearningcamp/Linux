@@ -1,0 +1,2 @@
+rm -rf <folder>
+- Deletes a non empty folder
