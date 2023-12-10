@@ -1,8 +1,0 @@
-cd <directory name or path>
-  Changes the directory
-
-cd .. or cd -
-  Changes to parent directory
-
-cd .
-  No change

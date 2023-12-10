@@ -1,5 +1,0 @@
-cat <file name>
-  Prints the contents of a file
-
-If the file is empty - No output
-If no such file      - Error
