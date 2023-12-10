@@ -1,6 +1,9 @@
 grep "jebin" file.txt
 - Displays lines where jebin is present in file.txt
 
+grep -w "jebin" file.txt
+- Displays lines where exact word jebin is present in file.txt
+
 grep -i "jebin" file.txt
 - Case insensitive
 
