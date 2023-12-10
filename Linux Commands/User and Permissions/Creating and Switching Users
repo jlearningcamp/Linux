@@ -1,0 +1,12 @@
+sudo useradd uname
+sudo passwd uname
+
+sudo groupadd groupname
+
+su uname
+
+sudo usermod -aG groupname uname
+
+sudo userdel uname
+
+sudo groupdel groupname
