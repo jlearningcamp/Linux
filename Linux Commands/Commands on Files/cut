@@ -1,0 +1,11 @@
+cut -n file.txt
+  - Prints Upto nth character
+
+cut n- file.txt
+  - Prints From nth character
+
+cut n-m file.txt
+  - Prints From nth to mth character
+
+cut -d " " -f 3 file.txt
+  - Takes space as delimiter(-d) and then cuts the 3rd field
