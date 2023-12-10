@@ -1,0 +1,39 @@
+grep "jebin" file.txt
+- Displays lines where jebin is present in file.txt
+
+grep -i "jebin" file.txt
+- Case insensitive
+
+grep -v "jebin" file.txt
+- Other than jebin
+
+grep -n "jebin" file.txt
+- Also the line number
+
+grep -l "jebin" file2.txt file1.txt file12.txt
+- Among these files where is jebin
+
+"^jebin"
+- Start is jebin
+
+"jebin$"
+- Ending with jebin
+
+"^[A-Z]"
+- Starting with A to Z
+
+"^[aeiou]"
+- Starting with Vowels
+
+grep -An "jebin" file.txt where n = 1,2,3 etc
+- Prints n lines after jebin's occurence 
+
+grep -Bn "jebin" file.txt where n = 1,2,3 etc
+- Prints n lines before jebin's occurence 
+
+grep -Cn "jebin" file.txt where n = 1,2,3 etc
+- Prints n lines before and after jebin's occurence 
+
+grep -r <pattern> <directory>
+- Recursive
+- Checks all the files within that directory
