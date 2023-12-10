@@ -1,0 +1,8 @@
+cat jebin.txt | wc
+
+cat file.txt | grep -l "jebin"
+
+cat numbers.txt | sort | uniq
+
+cat file.txt | grep -l "jebin" | tee output.txt
+- tee means reads and writes output to output.txt
