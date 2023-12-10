@@ -1,0 +1,5 @@
+mv <file> <dest. location>
+- Moves the file from the present location to the specified dest. location
+
+mv <filename> <new name>
+- Renames the file
