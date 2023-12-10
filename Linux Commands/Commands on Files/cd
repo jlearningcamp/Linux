@@ -1,0 +1,7 @@
+cd <directory> : Change the directory
+
+cd .. : Changes the directory to parent
+
+cd - : Changes the directory to parent
+
+cd . : No change
