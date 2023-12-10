@@ -1,0 +1,9 @@
+apt search <pkg name>
+apt show <pkg name>
+
+apt update
+
+apt install <pkg>
+
+apt remove <pkg>
+apt remove <pkg> --purge
