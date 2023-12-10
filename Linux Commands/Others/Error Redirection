@@ -1,7 +1,7 @@
 "pwd -dd" will lead to an error
 
-pwd -dd 2> /dev/null
-- Redirects the error to /dev/null
+pwd -dd 2> error.txt
+- Redirects the error to error.txt
 
 pwd -dd 2> /dev/null
 - Redirects the error to /dev/null
