@@ -1,0 +1,11 @@
+chmod 421
+
+chmod a+x
+- All have execute permissions
+
+chmod u+x like that
+- User can execute
+
+u - user
+g - group
+o - Others
