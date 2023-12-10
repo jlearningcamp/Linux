@@ -1,9 +1,14 @@
-ls
+ls 
+  Displays the contents of a folder
 
 ls -a
+  Displays all the contents including hidden files
 
 ls -l
+  Displays the contents of a folder with details like permissions, ownership, size 
 
 ls -r
+  Displays the contents of a folder in reverse order of alphabets
 
 ls -t
+  Displays the contents of a folder based on time
