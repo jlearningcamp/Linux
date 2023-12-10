@@ -1,0 +1,39 @@
+uptime
+- how long it is on
+
+hostname
+- hostname
+
+hostname -I
+- ip
+
+whoami
+- who is logged in
+
+id
+- user id, group id of logged in user
+
+/proc/cpuinfo
+- CPU Info
+
+/proc/meminfo
+- Memory Info
+
+df
+du
+- Disk usage specific
+
+date
+
+history
+
+last reboot
+
+free -h
+- how much memory is used, free etc
+
+watch
+- Periodic update of disk
+
+last
+- who logged in last
