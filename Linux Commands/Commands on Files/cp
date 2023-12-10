@@ -1,0 +1,2 @@
+cp -r <filename> <new name> 
+- Creates a copy of that file
