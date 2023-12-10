@@ -9,3 +9,13 @@ chmod u+x like that
 u - user
 g - group
 o - Others
+
+chown user file
+- change ownership to user
+
+chown :group file
+chgrp gp file
+- Change group ownership
+
+chown -R :group folder
+- Give ownership to entire files within this folder
