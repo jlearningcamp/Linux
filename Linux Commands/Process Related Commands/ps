@@ -1,0 +1,14 @@
+ps
+- List all processes
+
+ps -u abcd
+- Shows all processes running by user 'abcd'
+
+ps -p 1234
+- Get the details of process 1234
+
+ps -eH
+- Prints processes in a heirarchical manner
+
+top
+- Live processes
