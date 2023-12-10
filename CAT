@@ -1,8 +1,0 @@
-cat <file name>
-Displays the contents of a file
-
-cat <empty file name>
-Displays nothing
-
-cat <File that does not exist>
-Error "No such file or directory"
