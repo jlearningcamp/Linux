@@ -1,0 +1,4 @@
+cat <file name> : Displays its contents
+
+If file is empty, then no output
+If no such file, then Error
