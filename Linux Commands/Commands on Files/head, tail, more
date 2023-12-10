@@ -1,0 +1,17 @@
+head <filename>
+- Displays first 10 lines 
+
+head -n <number> <filename>
+- Displays first 'number' of lines
+
+tail <filename>
+- Displays last 10 lines 
+
+tail -n <number> <filename>
+- Displays last 'number' of lines
+
+more <file name>
+- Displays the contents like we see in internet. Not all the contents at a time. Scroll down(Press Space) to see more
+
+head/tail/more -f <filename>
+- Display contents of a file that updates regularly
