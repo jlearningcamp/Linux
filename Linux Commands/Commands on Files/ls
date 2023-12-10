@@ -12,3 +12,9 @@ ls -r
 
 ls -t
   Displays the contents of a folder based on time
+
+lsof
+- List of all open commands/folders
+
+lsof -u <user>
+- List of all open commands/folders by a user
