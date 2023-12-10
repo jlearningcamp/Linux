@@ -12,3 +12,11 @@ ps -eH
 
 top
 - Live processes
+
+ps -ef
+- Background processes
+
+kill <process id>
+
+killall <nano>
+- Kill all nano processes
