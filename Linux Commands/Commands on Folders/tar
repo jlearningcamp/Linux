@@ -1,0 +1,11 @@
+tar -cf <tar file name> <file1> <file2> ...
+- Creates a tar file with the name that zips file1, file2 etc
+
+tar -tf <tar name>
+- List the content
+
+tar -xf <tar name>
+- Extracts the files
+
+tar --delete -f <tar name> <file name>
+- Deletes the specified file from the tar
