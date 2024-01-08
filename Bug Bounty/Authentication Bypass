@@ -1,0 +1,2 @@
+1) Go to site
+   Login page - register - check otp validation to complete registration - Enter a wrong otp - intercept it in burpsuite - Check the response - Changed status from 0 to 1
