@@ -1,2 +1,8 @@
-1) Register in a site - Verify via OTP - Intercept traffic using BurpSuite - Change status value
+1) Register in a site - Verify via OTP - Intercept traffic using BurpSuite - Change status value(like success, true etc etc)
 2) Can use 0000 as OTP which may be a master OTP
+
+
+
+
+Note:
+Right click on rqst -> do intercept this response
