@@ -1,1 +1,2 @@
 1) Register in a site - Verify via OTP - Intercept traffic using BurpSuite - Change status value
+2) Can use 0000 as OTP which may be a master OTP
