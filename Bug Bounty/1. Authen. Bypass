@@ -1,7 +1,7 @@
 1) Register in a site - Verify via OTP - Intercept traffic using BurpSuite - Change status value(like success, true etc etc)
 2) Can use 0000 as OTP which may be a master OTP
 3) If there is no status or response message in burp suite, randomly put a number like 1 and check whether that bypasses
-
+4) In similar way CAPTCHA can also gets bypassed
 
 
 Note:
