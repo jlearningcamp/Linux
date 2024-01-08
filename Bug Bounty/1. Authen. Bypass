@@ -2,7 +2,7 @@
 2) Can use 0000 as OTP which may be a master OTP
 3) If there is no status or response message in burp suite, randomly put a number like 1 and check whether that bypasses
 4) In similar way CAPTCHA can also gets bypassed
-
+5) Login successfully with a logged in user like give correct OTP and all. Intercept the request -> Change the userid to someone else's -> Account takeover
 
 Note:
 Right click on rqst -> do intercept this response
