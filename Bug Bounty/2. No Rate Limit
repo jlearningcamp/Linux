@@ -2,3 +2,6 @@
 if we are able to see 200 OK for the attack ie if we are able to create multiple user accounts, then that means the site is vuln to rate limiting
 
 Note: Throttle is available only in Burp Pro. Otherwise use OWASP ZAP
+
+2) Intercept the GET request where we entered OTP. Send to intruder -> mark otp as position -> Put payload sequence to brute force -> Grep match the error code(flag when we see the code)
+If we were able to brute force without any block(like many apps may block after 15 attempts), then we can say it is vuln to no rate limit
