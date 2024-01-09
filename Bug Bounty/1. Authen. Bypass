@@ -5,6 +5,6 @@
 5) Login successfully with a logged in user like give correct OTP and all. Intercept the request -> Change the userid to someone else's -> Account takeover
 6) Enter mobile or email or ID etc etc -> Will ask for OTP -> Intercept this req. -> forward and check at one place we can see the OTP that was sent -> use that OTP to verify/login
 ie no need to enter a fake otp and intercept (happened in ICICI Site chat bot) [in these cases intercept the request when clicking on verify via otp like that, don't wait for a fake otp to be entered and intercept that]
-
+7) Similar to OTP/ Captcha, 2FA can also be bypasses even if it is set. Capture the request and check for status that sets 2FA - Update it
 Note:
 Right click on rqst -> do intercept this response
