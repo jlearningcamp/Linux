@@ -1,2 +1,4 @@
 1) Select a site - Create an account - Intercept the request which intercepts the registration form - Send it to intruder - Mark the emailID or userID as position for sniper attack - Add some valid email IDs as payloads - Mark throttle(Time between two account creation like 5000ms) - uncheck payload encoding - attack.
 if we are able to see 200 OK for the attack ie if we are able to create multiple user accounts, then that means the site is vuln to rate limiting
+
+Note: Throttle is available only in Burp Pro. Otherwise use OWASP ZAP
