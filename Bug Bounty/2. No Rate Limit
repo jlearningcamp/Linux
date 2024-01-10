@@ -16,3 +16,4 @@ use %0d or %00 or %0d%0a or %09 etc at the end of email ID when sending through 
 
 
 Mainly check for password reset, otp verification, sign up creation like whether we are able to create multiple accounts etc
+OWASP ZAP can also be used which is much better than BurpSuite for No rate lt check
