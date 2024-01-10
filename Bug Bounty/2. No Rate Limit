@@ -1,5 +1,5 @@
 1) Select a site - Create an account - Intercept the request which intercepts the registration form - Send it to intruder - Mark the emailID or userID as position for sniper attack - Add some valid email IDs as payloads - Mark throttle(Time between two account creation like 5000ms) - uncheck payload encoding - attack.
-if we are able to see 200 OK for the attack ie if we are able to create multiple user accounts, then that means the site is vuln to rate limiting
+if we are able to see 200 OK for the attack ie if we are able to create multiple user accounts, then that means the site is vuln to rate limiting. Supply payloads with different email IDs
 
 Note: Throttle is available only in Burp Pro. Otherwise use OWASP ZAP
 
@@ -7,3 +7,7 @@ Note: Throttle is available only in Burp Pro. Otherwise use OWASP ZAP
 If we were able to brute force without any block(like many apps may block after 15 attempts), then we can say it is vuln to no rate limit
 
 3) Forgot Password - Enter Mobile to get OTP - Brute force using intruder - No rate limit
+
+4) Lets say we are checking rate limiting in such a way that whether that will create multiple accounts/ multiple mails like that... ie rate limit check with sending emails
+But in some sites, this rate limiting will get blocked or at some point message will come like "Limit reached" etc
+use %0d or %00 or %0d%0a etc at the end of email ID when sending through intruder
