@@ -13,3 +13,6 @@ But in some sites, this rate limiting will get blocked or at some point message 
 use %0d or %00 or %0d%0a or %09 etc at the end of email ID when sending through intruder
 
 5) Fake IP extension : https://learn.hacktify.in/courses/take/bug-bounty-hunting-and-penetration-testing/lessons/16835325-no-rate-limit-to-tool-fake-ip-practical
+
+
+Mainly check for password reset, otp verification, sign up creation like whether we are able to create multiple accounts etc
