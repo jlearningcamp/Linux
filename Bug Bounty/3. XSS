@@ -5,3 +5,6 @@
 - If JS payload does not executes any XSS, try to BALANCE the code
 
 - XSS can be achieved through changing the request method -> Adding an extra header (REFERER)
+- XSS can be achieved through storing the payload in cache server ie creating a cache miss
+  If data is stored = MISS
+  Not Stored        = HIT
