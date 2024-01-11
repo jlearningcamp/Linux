@@ -8,3 +8,4 @@
 - XSS can be achieved through storing the payload in cache server ie creating a cache miss
   If data is stored = MISS
   Not Stored        = HIT
+- "><svg/onload=confirm(1)>"@x.y on email address field in login page
