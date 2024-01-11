@@ -1,0 +1,5 @@
+- Check for search box
+- Enter a random string
+- Check whether it got reflected(in the body or URL)
+- If reflected, then it is vulnerable to Reflected XSS
+- If JS payload does not executes any XSS, try to BALANCE the code
