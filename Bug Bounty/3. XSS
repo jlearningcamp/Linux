@@ -12,7 +12,7 @@
   Using confirm can help in some cases other than alert
 - If we do not see any search boxes, use Burp Suite spider to spider the website to find more search areas
 - Blind XSS using "BXSS Hunter"
-
+- When we enter some details, if we use xss payloads, < or > may not be allowed. So we may feel that it is not vuln to XSS. Enter the data using Burp Suite. Sometime only client side only might be validated
 
 
 - python3 paramspider.py --domain domian.com
