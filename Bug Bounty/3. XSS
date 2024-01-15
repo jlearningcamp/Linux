@@ -11,7 +11,7 @@
 - If our payloads fails ie giving 400 bad request, we can use '-confirm(200)-' 
   Using confirm can help in some cases other than alert
 - If we do not see any search boxes, use Burp Suite spider to spider the website to find more search areas
-- Blind XSS using XSS Hunter
+- Blind XSS using "BXSS Hunter"
 
 
 
