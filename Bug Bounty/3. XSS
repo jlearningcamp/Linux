@@ -14,7 +14,7 @@
 - Blind XSS using "BXSS Hunter"
 - When we enter some details, if we use xss payloads, < or > may not be allowed. So we may feel that it is not vuln to XSS. Enter the data using Burp Suite. Sometime only client side only might be validated
 - Use tool FinDOM-XSS to automate the task of finding DOM XSS. This tool has a dependecy with another tool called linkfinder. So both tools have to be installed
-
+- Cookie stealing
 
 
 
