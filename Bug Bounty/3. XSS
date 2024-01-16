@@ -17,7 +17,7 @@
 - Cookie stealing
 - Upload a file with JS code for a XSS pop up
 - exiftool
-
+- Paramspider tool for finding endpoints
 
 - python3 paramspider.py --domain domian.com
 
