@@ -16,7 +16,7 @@
 - Use tool FinDOM-XSS to automate the task of finding DOM XSS. This tool has a dependecy with another tool called linkfinder. So both tools have to be installed
 - Cookie stealing
 - Upload a file with JS code for a XSS pop up
-
+- exiftool
 
 
 - python3 paramspider.py --domain domian.com
