@@ -1,2 +1,4 @@
 - Access the profile page -> Intercept the profile page -> Use CSRF PoC generator (Engagement Tool) in Burp Suite -> Copy the associated html code for the profile page -> Update the same with name as somthing else etc etc
             -> Access the page via browser -> Click on the link displayed -> Checks whether the actual profile got changed -> If so CSRF confirmed
+
+- Login/ Logout CSRF is out of scope
