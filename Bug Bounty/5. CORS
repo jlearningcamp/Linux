@@ -1,7 +1,14 @@
 Exploitable Test Cases:
 - Request: 
-  origin: evil.com (We have to type)
+  Origin: evil.com (We have to type)
   Response: (below as a response)
   access control allow origin: evil.com / null
   access control allow credentials: true
 If we get like above response => CORS
+
+
+- Domain: abc.com
+  In request: Origin: evil.com
+  but in response we didn't get the reflection
+  The best way to bypass is to:
+  Origin: abc.com.evil.com
