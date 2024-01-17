@@ -12,3 +12,5 @@ If we get like above response => CORS
   but in response we didn't get the reflection
   The best way to bypass is to:
   Origin: abc.com.evil.com
+          or
+  Origin: evilabc.com
