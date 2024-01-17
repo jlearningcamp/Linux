@@ -4,8 +4,5 @@
 - Access the profile page -> Intercept the profile page -> Change request method in Burp Suite tp bypass -> Use CSRF PoC generator (Engagement Tool) in Burp Suite -> Copy the associated html code for the profile page -> Update the same with name as somthing else etc etc
             -> Access the page via browser -> Click on the link displayed -> Checks whether the actual profile got changed -> If so CSRF confirmed
 - Can link XSS with CSRF
-
-
-
-
 - Login/ Logout CSRF is out of scope (Attacker sends a link -> I clicked on it -> I got logged out -> Logout CSRF)
+- Use "csrf poc generator" as an alternative to csrf poc gen of Burp Suite
