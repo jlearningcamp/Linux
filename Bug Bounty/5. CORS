@@ -1,0 +1,5 @@
+Exploitable Test Cases:
+- Request: evil.com
+  Response: 
+  access control allow origin: evil.com / null
+  access control allow credentials: true
