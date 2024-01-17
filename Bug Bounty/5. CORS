@@ -14,3 +14,12 @@ If we get like above response => CORS
   Origin: abc.com.evil.com
           or
   Origin: evilabc.com
+
+
+Alternative for Burp is using Curl command:
+curl "https://www.abc.com" -I 
+where -I means only response headers
+
+To check cors:
+curl "https://www.abc.com" -I -H Origin:Specify the origin
+where -H is header and origin is as per above test cases
