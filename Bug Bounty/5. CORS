@@ -23,3 +23,6 @@ where -I means only response headers
 To check cors:
 curl "https://www.abc.com" -I -H Origin:Specify the origin
 where -H is header and origin is as per above test cases
+
+
+Check html codes that can extract data from the site
