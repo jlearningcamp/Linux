@@ -4,3 +4,4 @@ Exploitable Test Cases:
   Response: (below as a response)
   access control allow origin: evil.com / null
   access control allow credentials: true
+If we get like above response => CORS
