@@ -1,1 +1,4 @@
 - Find some endpoints like "file=" in the request. you can make use of burp spider and burp search
+if /etc/passwd does not yield any output in the response, use 
+file=../etc/passwd
+file=../../etc/passwd
