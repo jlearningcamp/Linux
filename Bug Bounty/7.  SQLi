@@ -1,1 +1,2 @@
-In GET req, POST req, Headers, Cookies, we can perform sqli
+- In GET req, POST req, Headers, Cookies, we can perform sqli
+- Try to execute sql shell execution on the url
