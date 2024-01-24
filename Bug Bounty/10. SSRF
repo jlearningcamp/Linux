@@ -1,5 +1,5 @@
 - Intercept a request with "file" parameter like file=image1.jepg
-- Copy the Burp collab link and paste it instead of image1.jpeg
+- Copy the Burp collab link and paste it instead of image1.jpeg like file=http://collabID
 - Send this request and check for response.
 - We may get some random data as response
 - Check burp collab 
