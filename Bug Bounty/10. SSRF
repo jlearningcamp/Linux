@@ -6,3 +6,7 @@
 - If we find any change, like interaction in collab, we can assure SSRF
 - If HTTP req. is captured in collab, check the ip in the request response.
 - Search for the ip in the browser. It may lead to our target/victim website
+
+
+- If Collab is unavailable
+  - use links from webhook.site
