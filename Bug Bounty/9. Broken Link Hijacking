@@ -5,3 +5,6 @@ blc -> a.com -> I found that A.sales.com is giving 404 error => No such page
 but A.sales.com may have many links pointed from many other sites 
 So I can create A.sales.com page again and can post malicious content
 So when users visit the site via links , they see this malicious content
+
+
+- https://edoverflow.com/2017/broken-link-hijacking/
