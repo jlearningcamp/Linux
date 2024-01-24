@@ -8,3 +8,5 @@ So when users visit the site via links , they see this malicious content
 
 
 - https://edoverflow.com/2017/broken-link-hijacking/
+
+- You can't take over links that are hosted on the target website itself. you can take over those, if subdomain takeover is possible only. otherwise don't take over those links. Check for some other links like LinkedIn, etc etc of the target org
