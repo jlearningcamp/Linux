@@ -1,2 +1,3 @@
 - Write an html file with src parameter as the victim
 - or go to samy.pl - click jacking page -> Paste the victim url
+- or go to securityheaders.com -> paste the victim web site and search -> if you find xframe headers are not set/with a cross mark/ fails => vuln. to click jacking
