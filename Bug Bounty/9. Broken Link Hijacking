@@ -1,0 +1,7 @@
+- "blc" is a tool to check for broken links on a domain that we input
+If 404 error comes up when searched => broken link
+Eg: Lets say A is an org.
+blc -> a.com -> I found that A.sales.com is giving 404 error => No such page
+but A.sales.com may have many links pointed from many other sites 
+So I can create A.sales.com page again and can post malicious content
+So when users visit the site via links , they see this malicious content
