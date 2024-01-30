@@ -8,3 +8,5 @@
 - If cookie value is reflected in the target website -> Intercept it using Burp -> Clear cookie values(php session id) and input a html tag
 
 Instead of html header codes, we can use refresh-redirect code also
+
+- Let's say we have a back button on our website, when clicked move to the previous page. It will be having a referrer header if intercepted using burp. We can append our HTML code there. Always try to balance the code like ">/<a> like that...
