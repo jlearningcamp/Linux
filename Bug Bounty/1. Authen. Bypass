@@ -7,7 +7,7 @@
 ie no need to enter a fake otp and intercept (happened in ICICI Site chat bot) [in these cases intercept the request when clicking on verify via otp like that, don't wait for a fake otp to be entered and intercept that]
 7) Similar to OTP/ Captcha, 2FA can also be bypasses even if it is set. Capture the request and check for status that sets 2FA - Update it
 8) In some sites, we have option to add another email ID. That too need to be verified. But sometimes if we re-verify the primary email and then come back and refresh, the secondary one will also gets verified without even checking the mail
-
+9) IDOR
 
 
 Note:
