@@ -2,3 +2,5 @@
   We enter something -> Check whther it got reflected in our site -> We can check for HTMLi
   Eg: <h1>TEST</h1>
       <h1><u>TEST</u></h1>
+
+- If user agent field like Browser: Firefox, OS: Linux is reflected in the target website -> Intercept it using Burp -> Clear user agent values and input a html tag
