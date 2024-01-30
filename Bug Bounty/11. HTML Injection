@@ -4,3 +4,5 @@
       <h1><u>TEST</u></h1>
 
 - If user agent field like Browser: Firefox, OS: Linux is reflected in the target website -> Intercept it using Burp -> Clear user agent values and input a html tag
+
+- If cookie value is reflected in the target website -> Intercept it using Burp -> Clear cookie values(php session id) and input a html tag
