@@ -5,3 +5,5 @@
 - Similar to test; ls we can use test; ping <our local system IP>
   We may get a ping output in our target site.
   If not try to capture using Wireshark
+
+- Similar to ls, we can use some reverse shell commands too
