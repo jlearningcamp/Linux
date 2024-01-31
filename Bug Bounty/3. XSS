@@ -18,7 +18,7 @@
 - Upload a file with JS code for a XSS pop up
 - exiftool
 - Paramspider tool for finding endpoints
-
+- Also try to change heading/title/text in a page using XSS
 - python3 paramspider.py --domain domian.com
 
 - cat domain.com.txt | kxss | grep "< >" | tee unfiltered_param.txt 
