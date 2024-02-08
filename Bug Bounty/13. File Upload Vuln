@@ -2,3 +2,5 @@
 
 - If .php is not supported for file upload, try to rename the code file with .jpeg or any other supported extensions. Intercept the upload using Burp. Modify the extension from jpeg to .php in Burp and forward. 
   This will bypass file upload restrictions
+
+- Another option is to modify the file extension as file.jpeg to file.php.jpeg in BurpSuite
