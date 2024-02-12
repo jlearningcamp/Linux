@@ -1,6 +1,8 @@
-Similar to LFI
+- Similar to LFI
 In LFI we fetch local rsrcs like etc/passwd etc
 In RFI, we can fetch rsrcs from some other servers
 
 Eg: In LFI, /etc/passwd file of victim
 In RFI, a local .php or .txt file from the attacker's system can be fetched by manipulating the URL in the similar way of LFI
+
+- In some cases http will be filtered so try to use mixed cases like hTTp like that and check for RFI
