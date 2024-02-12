@@ -6,3 +6,4 @@ file=../../etc/passwd
 - LFI can be elevated to RCI by modifying user agent parameter in the request 
 Use php payload like 
 https://infosecwriteups.com/leveraging-lfi-to-rce-in-a-website-with-20000-users-129050f9982b
+  - You can also use a listener - shell command
