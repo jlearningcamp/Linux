@@ -7,3 +7,7 @@
   If not try to capture using Wireshark
 
 - Similar to ls, we can use some reverse shell commands too
+
+- Eg: ping <ip>;ls
+If this gets filtered out, use the below
+ping ip | <cmd or reverse shell>
