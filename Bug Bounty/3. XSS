@@ -9,6 +9,7 @@
   Not Stored        = HIT
 - "><svg/onload=confirm(1)>"@x.y on email address field in login page
 - If our payloads fails ie giving 400 bad request, we can use '-confirm(200)-' 
+- String.fromCharCode(........) can also be used
   Using confirm can help in some cases other than alert
 - If we do not see any search boxes, use Burp Suite spider to spider the website to find more search areas
 - If payloads are getting bypassed through length issue.. like message len. max=5.... in such case modify the length in inspect source
