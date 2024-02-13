@@ -1,0 +1,4 @@
+- Use "cookies manager" extension for firefox
+  Login to the website with a valid login - Check the extension for cookie entry - Check whether cookie is weak like any particular pattern or sequence
+  Change that value accordingly
+  Save and refresh the page. Find whther we see a new logged in user
