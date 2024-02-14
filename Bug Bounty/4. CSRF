@@ -6,3 +6,7 @@
 - Can link XSS with CSRF
 - Login/ Logout CSRF is out of scope (Attacker sends a link -> I clicked on it -> I got logged out -> Logout CSRF)
 - Use "csrf poc generator" as an alternative to csrf poc gen of Burp Suite
+
+- Lets say the website is having csrf token 
+  Login to account 1 -> save the csrf token -> Log out
+  Login to account 2 -> Use the same csrf token -> if validates then that means csrf token didn't expired
