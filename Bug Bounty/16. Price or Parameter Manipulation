@@ -1,0 +1,6 @@
+- Intercept checkout page
+  Search for the entered price in the request 
+  Change the parameter value of price to attacker req.d value
+
+- In some cases, the price value and all will be in encoded manner
+  So decode that first - change the price - encode again - paste back it in burp - forward 
