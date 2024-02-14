@@ -4,3 +4,5 @@
   This will bypass file upload restrictions
 
 - Another option is to modify the file extension as file.jpeg to file.php.jpeg in BurpSuite
+
+- Try for csv injection ie edit csv file name as any cmd like that
