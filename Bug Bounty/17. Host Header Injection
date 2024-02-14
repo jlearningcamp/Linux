@@ -2,3 +2,6 @@
   Change "host" value to evil.com
   Forward
   Check whether the original page redirects
+
+- If it is not working ie website do not allow, 
+  try to change host as well as referrer to evil.com
