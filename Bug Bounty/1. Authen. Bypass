@@ -9,6 +9,13 @@ ie no need to enter a fake otp and intercept (happened in ICICI Site chat bot) [
 8) In some sites, we have option to add another email ID. That too need to be verified. But sometimes if we re-verify the primary email and then come back and refresh, the secondary one will also gets verified without even checking the mail
 9) IDOR
 10) Intercept the request -> You can find Authorization/ Headers related to authen. -> Decode that you may find username and pwd like that
+11) Email verification bypass
+    Intercept a email-verified user's profile
+    Intercept a email-not verified user's profile
+    Modify the request data from verified's to not verified's so that not verified become verified
+
+
+
 
 Note:
 Right click on rqst -> do intercept this response
