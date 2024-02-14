@@ -1,0 +1,4 @@
+- Intercept a page
+  Change "host" value to evil.com
+  Forward
+  Check whether the original page redirects
