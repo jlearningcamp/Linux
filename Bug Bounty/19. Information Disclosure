@@ -1,0 +1,6 @@
+- Login to abc.com
+  View user profile page
+  Check whether username is in the url
+  Go to page source and find any user ID associated with the user
+  try to modify url to access user profile with ID Eg: abc.com/users/232342
+  If this retrieves info, try to put a random ID and check source code to find more sensitve info
