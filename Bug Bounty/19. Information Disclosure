@@ -4,3 +4,12 @@
   Go to page source and find any user ID associated with the user
   try to modify url to access user profile with ID Eg: abc.com/users/232342
   If this retrieves info, try to put a random ID and check source code to find more sensitve info
+
+
+- For applications where we one user can invite others:
+  User A sends invitation to B
+  B recieved the invitation link
+  B can use the link to join A's team 
+  Let's say another random user C gets this link and try to accept. C may get error that it do not belong to C and was sent to some other user etc etc
+  Check the source code 
+  Some informations may be leaked. If so Info. Disclosure vuln.
