@@ -6,3 +6,7 @@
 - Another option is to modify the file extension as file.jpeg to file.php.jpeg in BurpSuite
 
 - Try for csv injection ie edit csv file name as any cmd like that
+
+- Only png or JPEG allowed -> Upload a png file -> Intercept the req. -> Try to rename as .php and send again -> May work
+  If not
+        see some encoded or like that content of the file in burp suite. Inject our malicious php payload in between that content
